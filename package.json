@@ -1,16 +1,14 @@
 {
-  "name": "uniq-component",
-  "author": "Damian Suarez <rdsuarez@gmail.com>",
+  "name": "yields-uniq",
+  "description": "array uniq",
   "version": "1.0.0",
-  "dependencies": {},
-  "devDependencies": {
-    "indexof-component": "0.0.1",
-    "mocha": "*",
-    "should": "*"
+  "keywords": [
+    "uniq",
+    "unique",
+    "array"
+  ],
+  "dependencies": {
+    "component-indexof": "git://github.com/npmcomponent/component-indexof.git"
   },
-  "component": {
-    "scripts": {
-      "uniq/index.js": "index.js"
-    }
-  }
+  "license": "MIT"
 }

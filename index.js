@@ -4,9 +4,9 @@
  */
 
 try {
-  var indexOf = require('indexof');
+  var indexOf = require('component-indexof');
 } catch(e){
-  var indexOf = require('indexof-component');
+  // commented out by npm-component: var indexOf = require('indexof-component');
 }
 
 /**
